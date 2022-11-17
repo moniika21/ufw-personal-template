@@ -1,9 +1,10 @@
-sudo ufw default deny incoming
-sudo ufw default allow outgoing
-sudo ufw allow ssh
-sudo ufw limit ssh
-sudo ufw allow http
-sudo ufw limit http
-sudo ufw allow https
-sudo ufw limit https
-sudo ufw enable
+#!/bin/bash
+ufw default deny incoming
+ufw default allow outgoing
+ufw allow ssh
+ufw limit ssh
+ufw allow http
+ufw limit http
+ufw allow https
+ufw limit https
+ufw enable
